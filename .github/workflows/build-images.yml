@@ -18,7 +18,7 @@ jobs:
 
       - name: Scan with Trivy (fail on new CRITICAL)
         run: |
-          trivy image --severity CRITICAL --exit-code 1 \
+          /snap/bin/trivy image --severity CRITICAL --exit-code 1 \
             --ignorefile mcp-sidecar/.trivyignore \
             192.168.20.18:5050/mcp-sidecar-base:${{ github.sha }}
 
@@ -35,7 +35,7 @@ jobs:
 
       - name: Scan with Trivy (fail on new CRITICAL)
         run: |
-          trivy image --severity CRITICAL --exit-code 1 \
+          /snap/bin/trivy image --severity CRITICAL --exit-code 1 \
             192.168.20.18:5050/ai-worker-base:${{ github.sha }}
 
       - name: Push image
