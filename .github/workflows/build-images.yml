@@ -1,0 +1,42 @@
+name: Build and Scan Golden Images
+
+on:
+  schedule:
+    - cron: '0 3 * * 1'
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+jobs:
+  build-sidecar:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build mcp-sidecar-base
+        run: docker build -t 192.168.20.18:5050/mcp-sidecar-base:${{ github.sha }} mcp-sidecar/
+
+      - name: Scan with Trivy (fail on new CRITICAL)
+        run: |
+          trivy image --severity CRITICAL --exit-code 1 \
+            --ignorefile mcp-sidecar/.trivyignore \
+            192.168.20.18:5050/mcp-sidecar-base:${{ github.sha }}
+
+      - name: Push image
+        run: docker push 192.168.20.18:5050/mcp-sidecar-base:${{ github.sha }}
+
+  build-ai-worker:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build ai-worker-base
+        run: docker build -t 192.168.20.18:5050/ai-worker-base:${{ github.sha }} ai-worker/
+
+      - name: Scan with Trivy (fail on new CRITICAL)
+        run: |
+          trivy image --severity CRITICAL --exit-code 1 \
+            192.168.20.18:5050/ai-worker-base:${{ github.sha }}
+
+      - name: Push image
+        run: docker push 192.168.20.18:5050/ai-worker-base:${{ github.sha }}
