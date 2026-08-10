@@ -1,0 +1,4791 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "192.168.20.18:5050/mcp-sidecar-base:v0.1.3",
+  "documentNamespace": "http://aquasecurity.github.io/trivy/container_image/192.168.20.18:5050/mcp-sidecar-base:v0.1.3-d42ee224-0719-482a-bbf6-5812b0da0399",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.52.2"
+    ],
+    "created": "2026-08-10T03:57:57Z"
+  },
+  "packages": [
+    {
+      "name": "usr/local/bin/step",
+      "SPDXID": "SPDXRef-Application-9cbba0c1a81fdc7e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "attributionTexts": [
+        "Class: lang-pkgs",
+        "Type: gobinary"
+      ],
+      "primaryPackagePurpose": "APPLICATION"
+    },
+    {
+      "name": "192.168.20.18:5050/mcp-sidecar-base:v0.1.3",
+      "SPDXID": "SPDXRef-ContainerImage-56c162351c453e5c",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:oci/mcp-sidecar-base@sha256%3Ad7b3128a3d9d3d0014ebdd39bbe45c4e97cc65323eaec553aa0fed00353486c8?arch=amd64\u0026repository_url=192.168.20.18%3A5050%2Fmcp-sidecar-base"
+        }
+      ],
+      "attributionTexts": [
+        "DiffID: sha256:073d3804e7d91629e1b04f476c0ba16d13f93c27e8977edc717b9c99b16185bd",
+        "DiffID: sha256:114dde0fefebbca13165d0da9c500a66190e497a82a53dcaabc3172d630be1e9",
+        "DiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "DiffID: sha256:1230ca28c337e605fa5b7910feb96c299b50ebd69f7feedb6143909b14f6ee52",
+        "DiffID: sha256:1ca5d6162237e422b40e38cf8c2dbc5430eac27133458f62d7762c8700e8b856",
+        "DiffID: sha256:21df81c862b2e3f7e76a90659000c24196dae65e7ed3c0d3e654ed752f618416",
+        "DiffID: sha256:2401c5ea32a75452bc4b02a664c80cf63f197704653926fca19e22e6cbc85652",
+        "DiffID: sha256:2a45b556222ed1ab09b98b483e99cefd77c7bbd4877ebafb44775a30065c7dd1",
+        "DiffID: sha256:33b37ab0b0901175c2699d81c10b0c887f0dff944de74763cca00c155904d6fb",
+        "DiffID: sha256:34029bd8646f750ae4e84b107ad574c9b50444b1e7a6e913aca67fa90b1c797e",
+        "DiffID: sha256:4840c7c54023c867f19564429c89ddae4e9589c83dce82492183a7e9f7dab1fa",
+        "DiffID: sha256:4cde6b0bb6f50a5f255eef7b2a42162c661cf776b803225dcac9a659e396bb6b",
+        "DiffID: sha256:4d049f83d9cf21d1f5cc0e11deaf36df02790d0e60c1a3829538fb4b61685368",
+        "DiffID: sha256:4fcd8b117df470130b4afb775a6030776adf1d3f49509a03e0e1db3782deff25",
+        "DiffID: sha256:5cad5c1bcb1284371c982147965bb981d92d6794f90281a7752b333e8cdb511e",
+        "DiffID: sha256:6819a1af097df543d58dc30b51f737e55f3f42a9a04e641f175834a55bf0629c",
+        "DiffID: sha256:6a5a95a9c158ded2e596ff36493c0bf016b11e8aeec950ce2dff8f599ad43415",
+        "DiffID: sha256:6d945ac65d26a683937d2a98b399fe4e34ba0be47c5ec707753cf78398656876",
+        "DiffID: sha256:6e7fbcf090d09b73a4aa85f9dce690d0ace73877c150b7c56955487b6e7a822a",
+        "DiffID: sha256:6f1cdceb6a3146f0ccb986521156bef8a422cdbb0863396f7f751f575ba308f4",
+        "DiffID: sha256:7095412417d2dce289b77f7a8c632a07c82b707fe43cfef7368c3b65c8d2538a",
+        "DiffID: sha256:70cc9de5fec817e348d24ea3458446d30430daa32ea6e95effd85ee1d4066cdc",
+        "DiffID: sha256:799042d6c30b65c38d3b00a310a1567a835064af5d326d21eb15e527f8703f6b",
+        "DiffID: sha256:8fa10c0194df9b7c054c90dbe482585f768a54428fc90a5b78a0066a123b1bba",
+        "DiffID: sha256:926d62780f6733e037d63af3453a461e1906f026051d9d7279fbdeb1400850a9",
+        "DiffID: sha256:a33ba213ad26a605d904a741f67154f3904c74a43182c872c35f36b10fa005e0",
+        "DiffID: sha256:ad51d0769d16ba578106a177987dfe3d2e02c1668c852b795b2f6b024068242a",
+        "DiffID: sha256:af377b41bfba1bf4a21593351556bf69eeba089d768b569175415fb36b01b039",
+        "DiffID: sha256:af5aa97ebe6ce1604747ec1e21af7136ded391bcabe4acef882e718a87c86bcc",
+        "DiffID: sha256:b1c2c1dbf4c83dfb5544ca0cb264221888a9d111664cab667c1013501be29c8c",
+        "DiffID: sha256:b31f6057c6e5e980d67a5e06679255231083df0364c9040db45010bafebcadf2",
+        "DiffID: sha256:b47d9619ecfbb803f4b834cf89ba8d0c7014df1f2a4463f4a894dc7eb2911868",
+        "DiffID: sha256:bab244f45e0f0e3034fe89921e69b4954e9ef07d0a7c577133d57ab60aafa408",
+        "DiffID: sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
+        "DiffID: sha256:bd3cdfae1d3fdd83a2231d608969b38b82349777c2fff9a7c12d54f8ac5c9b38",
+        "DiffID: sha256:c3abae442368dc447f15c468933843c361f227f5d87b2bb86515b49f40583ed9",
+        "DiffID: sha256:c3e70ac51b35c50b1a76bb423932218a9782a3e9ba390664a41c94ba3ad4d1ed",
+        "DiffID: sha256:c93bbfda25876bf5bb9130abda5775001d19242d44b37761e4309429bc55481d",
+        "DiffID: sha256:d20e351ed4b9a6550ad5c7f7164a955c9b0fec6f5734b48eb0394e9f20f9ec65",
+        "DiffID: sha256:d85a281330c3eb1c71ceee698bd5bd07040df695fad7cea92f3a2e04d23b281b",
+        "DiffID: sha256:dd8bd834609ca48d15941fae8dc5bb70e1ed986735c9d59c771ed505dfe45278",
+        "DiffID: sha256:e9a2ae4af4033701a0100ddd054fa6689b897cd76ac66b9dc35649bc363b75ae",
+        "DiffID: sha256:f0710678ba0b748f65dc70f9a427cbfee5899f11ea241cfd533d1971dc2c2cbf",
+        "DiffID: sha256:f3d99806ca4063b4e2fc0d2eeb015d136458b352e6109b1a763993d29e9ee07e",
+        "DiffID: sha256:f6b793f2e6207ee500e014fe6c739cd12afbd217ec973b9e4a1290cd24f7167f",
+        "ImageID: sha256:763e4ec8b597154093e84280a5d087f00a60233a6c7795767b9e07c1b15ef2a0",
+        "RepoDigest: 192.168.20.18:5050/mcp-sidecar-base@sha256:d7b3128a3d9d3d0014ebdd39bbe45c4e97cc65323eaec553aa0fed00353486c8",
+        "RepoTag: 192.168.20.18:5050/mcp-sidecar-base:v0.1.3",
+        "SchemaVersion: 2"
+      ],
+      "primaryPackagePurpose": "CONTAINER"
+    },
+    {
+      "name": "base-files",
+      "SPDXID": "SPDXRef-Package-d07877bb6d713d74",
+      "versionInfo": "12.4+deb12u13",
+      "supplier": "Organization: Santiago Vila \u003csanvila@debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: base-files 12.4+deb12u13",
+      "licenseConcluded": "GPL-3.0-only",
+      "licenseDeclared": "GPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/base-files@12.4%2Bdeb12u13?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:a33ba213ad26a605d904a741f67154f3904c74a43182c872c35f36b10fa005e0",
+        "LayerDigest: sha256:526604835308e0d61f64a3d3e2d614308fef4ed655f0111a4566627296c0195c",
+        "PkgID: base-files@12.4+deb12u13",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "cloud.google.com/go/auth",
+      "SPDXID": "SPDXRef-Package-dbe843af3b5ca050",
+      "versionInfo": "v0.20.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/cloud.google.com/go/auth@v0.20.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "cloud.google.com/go/auth/oauth2adapt",
+      "SPDXID": "SPDXRef-Package-2d6b7c54e717449c",
+      "versionInfo": "v0.2.8",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/cloud.google.com/go/auth/oauth2adapt@v0.2.8"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "cloud.google.com/go/compute/metadata",
+      "SPDXID": "SPDXRef-Package-de49c8bf80fbd202",
+      "versionInfo": "v0.9.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/cloud.google.com/go/compute/metadata@v0.9.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "cloud.google.com/go/iam",
+      "SPDXID": "SPDXRef-Package-2a5537989507abf",
+      "versionInfo": "v1.7.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/cloud.google.com/go/iam@v1.7.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "cloud.google.com/go/longrunning",
+      "SPDXID": "SPDXRef-Package-e84bc37773b64b9c",
+      "versionInfo": "v0.9.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/cloud.google.com/go/longrunning@v0.9.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "cloud.google.com/go/security",
+      "SPDXID": "SPDXRef-Package-7e8e927da77dd7aa",
+      "versionInfo": "v1.19.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/cloud.google.com/go/security@v1.19.2"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "dario.cat/mergo",
+      "SPDXID": "SPDXRef-Package-136710fa6c50fc31",
+      "versionInfo": "v1.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/dario.cat/mergo@v1.0.2"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "filippo.io/bigmod",
+      "SPDXID": "SPDXRef-Package-d57ac99101f0e5ce",
+      "versionInfo": "v0.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/filippo.io/bigmod@v0.1.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "filippo.io/edwards25519",
+      "SPDXID": "SPDXRef-Package-41b695548c23225",
+      "versionInfo": "v1.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/filippo.io/edwards25519@v1.2.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "gcc-12-base",
+      "SPDXID": "SPDXRef-Package-1b46193a3938fee",
+      "versionInfo": "12.2.0-14+deb12u1",
+      "supplier": "Organization: Debian GCC Maintainers \u003cdebian-gcc@lists.debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: gcc-12 12.2.0-14+deb12u1",
+      "licenseConcluded": "GPL-3.0-only AND GFDL-1.2-only AND GPL-2.0-only AND Artistic AND LGPL-3.0-only",
+      "licenseDeclared": "GPL-3.0-only AND GFDL-1.2-only AND GPL-2.0-only AND Artistic AND LGPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/gcc-12-base@12.2.0-14%2Bdeb12u1?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:7095412417d2dce289b77f7a8c632a07c82b707fe43cfef7368c3b65c8d2538a",
+        "LayerDigest: sha256:b16bb3b2bd07785f19e8c72faf8106454371bff33191bdb4480fd8d9455b7472",
+        "PkgID: gcc-12-base@12.2.0-14+deb12u1",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/AndreasBriese/bbloom",
+      "SPDXID": "SPDXRef-Package-de3c39dc20155d9a",
+      "versionInfo": "v0.0.0-20190825152654-46b345b51c96",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/andreasbriese/bbloom@v0.0.0-20190825152654-46b345b51c96"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/azcore",
+      "SPDXID": "SPDXRef-Package-7e5e176111a3a4a9",
+      "versionInfo": "v1.21.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/azcore@v1.21.1"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
+      "SPDXID": "SPDXRef-Package-7e0892d7872ab21e",
+      "versionInfo": "v1.13.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/azidentity@v1.13.1"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/internal",
+      "SPDXID": "SPDXRef-Package-9f2b419982ab2888",
+      "versionInfo": "v1.12.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/internal@v1.12.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/security/keyvault/azkeys",
+      "SPDXID": "SPDXRef-Package-9d4e592a67a8dd76",
+      "versionInfo": "v1.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/security/keyvault/azkeys@v1.5.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/Azure/azure-sdk-for-go/sdk/security/keyvault/internal",
+      "SPDXID": "SPDXRef-Package-5c2fb41b24a5addc",
+      "versionInfo": "v1.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azure/azure-sdk-for-go/sdk/security/keyvault/internal@v1.2.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/AzureAD/microsoft-authentication-library-for-go",
+      "SPDXID": "SPDXRef-Package-22593a17e24b1d43",
+      "versionInfo": "v1.7.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/azuread/microsoft-authentication-library-for-go@v1.7.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/Masterminds/goutils",
+      "SPDXID": "SPDXRef-Package-39f4329f798d1f91",
+      "versionInfo": "v1.1.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/masterminds/goutils@v1.1.1"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/Masterminds/semver/v3",
+      "SPDXID": "SPDXRef-Package-d134e4943f2b58f2",
+      "versionInfo": "v3.3.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/masterminds/semver/v3@v3.3.1"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/Masterminds/sprig/v3",
+      "SPDXID": "SPDXRef-Package-75a13341a724771f",
+      "versionInfo": "v3.3.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/masterminds/sprig/v3@v3.3.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/asaskevich/govalidator",
+      "SPDXID": "SPDXRef-Package-f4a9b33699a3e05",
+      "versionInfo": "v0.0.0-20210307081110-f21760c49a8d",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/asaskevich/govalidator@v0.0.0-20210307081110-f21760c49a8d"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/beorn7/perks",
+      "SPDXID": "SPDXRef-Package-bee42472f512a586",
+      "versionInfo": "v1.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/beorn7/perks@v1.0.1"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/boombuler/barcode",
+      "SPDXID": "SPDXRef-Package-2a4b3037e71a346c",
+      "versionInfo": "v1.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/boombuler/barcode@v1.0.1"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/ccoveille/go-safecast/v2",
+      "SPDXID": "SPDXRef-Package-7c33a7148c0e010c",
+      "versionInfo": "v2.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/ccoveille/go-safecast/v2@v2.0.1"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/cespare/xxhash",
+      "SPDXID": "SPDXRef-Package-caf846e00de269b4",
+      "versionInfo": "v1.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/cespare/xxhash@v1.1.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/cespare/xxhash/v2",
+      "SPDXID": "SPDXRef-Package-e770fd5cdf7ff9d6",
+      "versionInfo": "v2.3.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/cespare/xxhash/v2@v2.3.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/chzyer/readline",
+      "SPDXID": "SPDXRef-Package-1928b0c9b2a4d44",
+      "versionInfo": "v1.5.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/chzyer/readline@v1.5.1"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/coreos/go-oidc/v3",
+      "SPDXID": "SPDXRef-Package-6e351a69578de77c",
+      "versionInfo": "v3.17.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/coreos/go-oidc/v3@v3.17.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/coreos/go-systemd/v22",
+      "SPDXID": "SPDXRef-Package-6571979a1d4d29e0",
+      "versionInfo": "v22.7.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/coreos/go-systemd/v22@v22.7.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/cpuguy83/go-md2man/v2",
+      "SPDXID": "SPDXRef-Package-4bb57c09fb70672",
+      "versionInfo": "v2.0.7",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/cpuguy83/go-md2man/v2@v2.0.7"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/dgraph-io/badger",
+      "SPDXID": "SPDXRef-Package-c26dfdd40f62241a",
+      "versionInfo": "v1.6.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/dgraph-io/badger@v1.6.2"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/dgraph-io/badger/v2",
+      "SPDXID": "SPDXRef-Package-6a0a8d106a921292",
+      "versionInfo": "v2.2007.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/dgraph-io/badger/v2@v2.2007.4"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/dgraph-io/ristretto",
+      "SPDXID": "SPDXRef-Package-f846f7e6b8c457da",
+      "versionInfo": "v0.1.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/dgraph-io/ristretto@v0.1.1"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/dgryski/go-farm",
+      "SPDXID": "SPDXRef-Package-cdc67882175d8477",
+      "versionInfo": "v0.0.0-20200201041132-a6ae2369ad13",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/dgryski/go-farm@v0.0.0-20200201041132-a6ae2369ad13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/dustin/go-humanize",
+      "SPDXID": "SPDXRef-Package-a0f51fd6b7337774",
+      "versionInfo": "v1.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/dustin/go-humanize@v1.0.1"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/felixge/httpsnoop",
+      "SPDXID": "SPDXRef-Package-fa866a5163c40cbe",
+      "versionInfo": "v1.0.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/felixge/httpsnoop@v1.0.4"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/fxamacker/cbor/v2",
+      "SPDXID": "SPDXRef-Package-680854b91526789e",
+      "versionInfo": "v2.9.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/fxamacker/cbor/v2@v2.9.2"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/go-chi/chi/v5",
+      "SPDXID": "SPDXRef-Package-958da4c962e0bd65",
+      "versionInfo": "v5.2.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/go-chi/chi/v5@v5.2.5"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/go-jose/go-jose/v3",
+      "SPDXID": "SPDXRef-Package-374d1888394f0ddc",
+      "versionInfo": "v3.0.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/go-jose/go-jose/v3@v3.0.5"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/go-jose/go-jose/v4",
+      "SPDXID": "SPDXRef-Package-87d4e64697bf5a96",
+      "versionInfo": "v4.1.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/go-jose/go-jose/v4@v4.1.4"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/go-logr/logr",
+      "SPDXID": "SPDXRef-Package-6096bd69351c5538",
+      "versionInfo": "v1.4.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/go-logr/logr@v1.4.3"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/go-logr/stdr",
+      "SPDXID": "SPDXRef-Package-52b804d6b2422b6d",
+      "versionInfo": "v1.2.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/go-logr/stdr@v1.2.2"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/go-sql-driver/mysql",
+      "SPDXID": "SPDXRef-Package-2581f3bb3fc6f7ce",
+      "versionInfo": "v1.9.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/go-sql-driver/mysql@v1.9.3"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/golang-jwt/jwt/v5",
+      "SPDXID": "SPDXRef-Package-4671b50154868f45",
+      "versionInfo": "v5.3.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/golang-jwt/jwt/v5@v5.3.1"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/golang/glog",
+      "SPDXID": "SPDXRef-Package-3bdc4bd807e7460a",
+      "versionInfo": "v1.2.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/golang/glog@v1.2.5"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/golang/protobuf",
+      "SPDXID": "SPDXRef-Package-5cf790fc6784dd39",
+      "versionInfo": "v1.5.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/golang/protobuf@v1.5.4"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/golang/snappy",
+      "SPDXID": "SPDXRef-Package-6074b99536da8efb",
+      "versionInfo": "v0.0.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/golang/snappy@v0.0.4"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/google/btree",
+      "SPDXID": "SPDXRef-Package-66b643bb0011fabb",
+      "versionInfo": "v1.1.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/google/btree@v1.1.3"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/google/certificate-transparency-go",
+      "SPDXID": "SPDXRef-Package-79825352c60cae62",
+      "versionInfo": "v1.3.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/google/certificate-transparency-go@v1.3.2"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/google/go-tpm",
+      "SPDXID": "SPDXRef-Package-7c433bc2c2a7e68a",
+      "versionInfo": "v0.9.8",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/google/go-tpm@v0.9.8"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/google/go-tspi",
+      "SPDXID": "SPDXRef-Package-4b8240e59a9703e4",
+      "versionInfo": "v0.3.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/google/go-tspi@v0.3.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/google/s2a-go",
+      "SPDXID": "SPDXRef-Package-bf9c5c854ea95a03",
+      "versionInfo": "v0.1.9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/google/s2a-go@v0.1.9"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/google/uuid",
+      "SPDXID": "SPDXRef-Package-4bd6f057483811c1",
+      "versionInfo": "v1.6.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/google/uuid@v1.6.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/googleapis/enterprise-certificate-proxy",
+      "SPDXID": "SPDXRef-Package-a19b48042dc9b1b2",
+      "versionInfo": "v0.3.16",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/googleapis/enterprise-certificate-proxy@v0.3.16"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/googleapis/gax-go/v2",
+      "SPDXID": "SPDXRef-Package-b110a6936071eb3c",
+      "versionInfo": "v2.22.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/googleapis/gax-go/v2@v2.22.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/huandu/xstrings",
+      "SPDXID": "SPDXRef-Package-5c5d2c9f1d1dbf99",
+      "versionInfo": "v1.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/huandu/xstrings@v1.5.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/jackc/pgpassfile",
+      "SPDXID": "SPDXRef-Package-4996a0a3177847f4",
+      "versionInfo": "v1.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/jackc/pgpassfile@v1.0.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/jackc/pgservicefile",
+      "SPDXID": "SPDXRef-Package-234aa4622212821e",
+      "versionInfo": "v0.0.0-20240606120523-5a60cdf6a761",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/jackc/pgservicefile@v0.0.0-20240606120523-5a60cdf6a761"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/jackc/pgx/v5",
+      "SPDXID": "SPDXRef-Package-e9e46a779ab81a47",
+      "versionInfo": "v5.9.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/jackc/pgx/v5@v5.9.2"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/jackc/puddle/v2",
+      "SPDXID": "SPDXRef-Package-b151466cd2e69a7a",
+      "versionInfo": "v2.2.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/jackc/puddle/v2@v2.2.2"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/klauspost/compress",
+      "SPDXID": "SPDXRef-Package-165cd575377e4bcb",
+      "versionInfo": "v1.18.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/klauspost/compress@v1.18.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/kylelemons/godebug",
+      "SPDXID": "SPDXRef-Package-8e84aafde1e38d5c",
+      "versionInfo": "v1.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/kylelemons/godebug@v1.1.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/manifoldco/promptui",
+      "SPDXID": "SPDXRef-Package-c204d3c85b1d6213",
+      "versionInfo": "v0.9.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/manifoldco/promptui@v0.9.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/mattn/go-colorable",
+      "SPDXID": "SPDXRef-Package-412506510711e8a6",
+      "versionInfo": "v0.1.14",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/mattn/go-colorable@v0.1.14"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/mattn/go-isatty",
+      "SPDXID": "SPDXRef-Package-a1fa9abc9884f15d",
+      "versionInfo": "v0.0.20",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/mattn/go-isatty@v0.0.20"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/mgutz/ansi",
+      "SPDXID": "SPDXRef-Package-f45dd709b18d04a4",
+      "versionInfo": "v0.0.0-20200706080929-d51e80ef957d",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/mgutz/ansi@v0.0.0-20200706080929-d51e80ef957d"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/mitchellh/copystructure",
+      "SPDXID": "SPDXRef-Package-a236896fd3ea30fc",
+      "versionInfo": "v1.2.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/mitchellh/copystructure@v1.2.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/mitchellh/reflectwalk",
+      "SPDXID": "SPDXRef-Package-2d96fb6426f0a3dc",
+      "versionInfo": "v1.0.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/mitchellh/reflectwalk@v1.0.2"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/munnerz/goautoneg",
+      "SPDXID": "SPDXRef-Package-dbb56d122ca59c01",
+      "versionInfo": "v0.0.0-20191010083416-a7dc8b61c822",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/newrelic/go-agent/v3",
+      "SPDXID": "SPDXRef-Package-42ccfb252bcebf0",
+      "versionInfo": "v3.42.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/newrelic/go-agent/v3@v3.42.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/peterbourgon/diskv/v3",
+      "SPDXID": "SPDXRef-Package-fa9ed67f1cf97e",
+      "versionInfo": "v3.0.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/peterbourgon/diskv/v3@v3.0.1"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/pkg/browser",
+      "SPDXID": "SPDXRef-Package-c078c04392a8410d",
+      "versionInfo": "v0.0.0-20240102092130-5ac0b6a4141c",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/pkg/browser@v0.0.0-20240102092130-5ac0b6a4141c"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/pkg/errors",
+      "SPDXID": "SPDXRef-Package-218c631b83d36c4c",
+      "versionInfo": "v0.9.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/pkg/errors@v0.9.1"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/pquerna/otp",
+      "SPDXID": "SPDXRef-Package-fa983985ce47cce0",
+      "versionInfo": "v1.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/pquerna/otp@v1.5.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/prometheus/client_golang",
+      "SPDXID": "SPDXRef-Package-85d7bfb35c2ad378",
+      "versionInfo": "v1.23.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/prometheus/client_golang@v1.23.2"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/prometheus/client_model",
+      "SPDXID": "SPDXRef-Package-7ca792178dc07b99",
+      "versionInfo": "v0.6.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/prometheus/client_model@v0.6.2"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/prometheus/common",
+      "SPDXID": "SPDXRef-Package-8c5ce4891291876c",
+      "versionInfo": "v0.67.5",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/prometheus/common@v0.67.5"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/prometheus/procfs",
+      "SPDXID": "SPDXRef-Package-26209155d08b368a",
+      "versionInfo": "v0.19.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/prometheus/procfs@v0.19.2"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/rs/xid",
+      "SPDXID": "SPDXRef-Package-15da1e9c52368157",
+      "versionInfo": "v1.6.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/rs/xid@v1.6.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/russross/blackfriday/v2",
+      "SPDXID": "SPDXRef-Package-af538c5abadb6a4e",
+      "versionInfo": "v2.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/russross/blackfriday/v2@v2.1.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/schollz/jsonstore",
+      "SPDXID": "SPDXRef-Package-9c2d90bac3a198e",
+      "versionInfo": "v1.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/schollz/jsonstore@v1.1.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/shopspring/decimal",
+      "SPDXID": "SPDXRef-Package-fb89df951878e836",
+      "versionInfo": "v1.4.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/shopspring/decimal@v1.4.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/shurcooL/sanitized_anchor_name",
+      "SPDXID": "SPDXRef-Package-6f5afb96d8befbca",
+      "versionInfo": "v1.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/shurcool/sanitized_anchor_name@v1.0.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/sirupsen/logrus",
+      "SPDXID": "SPDXRef-Package-9080991b6a26cc1c",
+      "versionInfo": "v1.9.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/sirupsen/logrus@v1.9.4"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/slackhq/nebula",
+      "SPDXID": "SPDXRef-Package-eb2cc6fb736b5d6c",
+      "versionInfo": "v1.10.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/slackhq/nebula@v1.10.3"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/smallstep/certificates",
+      "SPDXID": "SPDXRef-Package-c4de0b6a78a80c3e",
+      "versionInfo": "v0.30.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/smallstep/certificates@v0.30.2"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/smallstep/certinfo",
+      "SPDXID": "SPDXRef-Package-99391c7b1a03bc81",
+      "versionInfo": "v1.16.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/smallstep/certinfo@v1.16.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/smallstep/cli",
+      "SPDXID": "SPDXRef-Package-77f01d492dd12b07",
+      "versionInfo": "v0.30.6",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/smallstep/cli@v0.30.6"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/smallstep/cli-utils",
+      "SPDXID": "SPDXRef-Package-3cc990f6599ab2eb",
+      "versionInfo": "v0.12.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/smallstep/cli-utils@v0.12.2"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/smallstep/go-attestation",
+      "SPDXID": "SPDXRef-Package-3dc6ce0cf712c22d",
+      "versionInfo": "v0.4.4-0.20260603212853-e1a87a0b07d9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/smallstep/go-attestation@v0.4.4-0.20260603212853-e1a87a0b07d9"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/smallstep/linkedca",
+      "SPDXID": "SPDXRef-Package-ec98bf5afae4c1be",
+      "versionInfo": "v0.25.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/smallstep/linkedca@v0.25.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/smallstep/nosql",
+      "SPDXID": "SPDXRef-Package-fb4ce7f0e6a30293",
+      "versionInfo": "v0.8.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/smallstep/nosql@v0.8.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/smallstep/pkcs7",
+      "SPDXID": "SPDXRef-Package-c85cf6fef060ce65",
+      "versionInfo": "v0.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/smallstep/pkcs7@v0.2.1"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/smallstep/scep",
+      "SPDXID": "SPDXRef-Package-a390fe795c6fea75",
+      "versionInfo": "v0.0.0-20250318231241-a25cabb69492",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/smallstep/scep@v0.0.0-20250318231241-a25cabb69492"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/smallstep/truststore",
+      "SPDXID": "SPDXRef-Package-5a6ab9687d5b897a",
+      "versionInfo": "v0.13.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/smallstep/truststore@v0.13.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/smallstep/zcrypto",
+      "SPDXID": "SPDXRef-Package-61b6209ad6823d98",
+      "versionInfo": "v0.0.0-20221001003018-1ab2364d2a91",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/smallstep/zcrypto@v0.0.0-20221001003018-1ab2364d2a91"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/smallstep/zlint",
+      "SPDXID": "SPDXRef-Package-2f1ded32b2b785ba",
+      "versionInfo": "v0.0.0-20220930192201-67fb4aa21910",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/smallstep/zlint@v0.0.0-20220930192201-67fb4aa21910"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/spf13/cast",
+      "SPDXID": "SPDXRef-Package-e89ba88a43170285",
+      "versionInfo": "v1.7.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/spf13/cast@v1.7.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/urfave/cli",
+      "SPDXID": "SPDXRef-Package-57b82ddd3dcdc95",
+      "versionInfo": "v1.22.17",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/urfave/cli@v1.22.17"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/weppos/publicsuffix-go",
+      "SPDXID": "SPDXRef-Package-4ade0e9456c20821",
+      "versionInfo": "v0.20.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/weppos/publicsuffix-go@v0.20.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "github.com/x448/float16",
+      "SPDXID": "SPDXRef-Package-148695609ee606f0",
+      "versionInfo": "v0.8.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/x448/float16@v0.8.4"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "go.etcd.io/bbolt",
+      "SPDXID": "SPDXRef-Package-7f340c43bf2bcf8",
+      "versionInfo": "v1.4.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.etcd.io/bbolt@v1.4.3"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "go.mozilla.org/pkcs7",
+      "SPDXID": "SPDXRef-Package-675b353e2665f583",
+      "versionInfo": "v0.9.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.mozilla.org/pkcs7@v0.9.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "go.opentelemetry.io/auto/sdk",
+      "SPDXID": "SPDXRef-Package-5d7192c4ac08dfe5",
+      "versionInfo": "v1.2.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/auto/sdk@v1.2.1"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+      "SPDXID": "SPDXRef-Package-4ec8666040a255f9",
+      "versionInfo": "v0.67.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.67.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+      "SPDXID": "SPDXRef-Package-a1d78c2b00d3ff47",
+      "versionInfo": "v0.67.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.67.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "go.opentelemetry.io/otel",
+      "SPDXID": "SPDXRef-Package-434b20ea93b4daea",
+      "versionInfo": "v1.43.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/otel@v1.43.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "go.opentelemetry.io/otel/metric",
+      "SPDXID": "SPDXRef-Package-856ff5792dc2bc8a",
+      "versionInfo": "v1.43.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/otel/metric@v1.43.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "go.opentelemetry.io/otel/trace",
+      "SPDXID": "SPDXRef-Package-92db54c1e9ece775",
+      "versionInfo": "v1.43.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.opentelemetry.io/otel/trace@v1.43.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "go.step.sm/crypto",
+      "SPDXID": "SPDXRef-Package-5580a9694cae7de5",
+      "versionInfo": "v0.82.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.step.sm/crypto@v0.82.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "go.yaml.in/yaml/v2",
+      "SPDXID": "SPDXRef-Package-5f70efc2cd6e3929",
+      "versionInfo": "v2.4.3",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/go.yaml.in/yaml/v2@v2.4.3"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "golang.org/x/crypto",
+      "SPDXID": "SPDXRef-Package-c53fb1b8a0a489ca",
+      "versionInfo": "v0.53.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/crypto@v0.53.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "golang.org/x/net",
+      "SPDXID": "SPDXRef-Package-7f2a77b7e461167",
+      "versionInfo": "v0.55.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/net@v0.55.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "golang.org/x/oauth2",
+      "SPDXID": "SPDXRef-Package-c56eab40362cb613",
+      "versionInfo": "v0.36.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/oauth2@v0.36.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "golang.org/x/sync",
+      "SPDXID": "SPDXRef-Package-13df54132e17fa1f",
+      "versionInfo": "v0.21.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/sync@v0.21.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "golang.org/x/sys",
+      "SPDXID": "SPDXRef-Package-4013bd113f72e7b3",
+      "versionInfo": "v0.46.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/sys@v0.46.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "golang.org/x/term",
+      "SPDXID": "SPDXRef-Package-c5ba73645a6ecbbb",
+      "versionInfo": "v0.44.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/term@v0.44.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "golang.org/x/text",
+      "SPDXID": "SPDXRef-Package-274e8cb52a93d53",
+      "versionInfo": "v0.38.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/text@v0.38.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "golang.org/x/time",
+      "SPDXID": "SPDXRef-Package-75e6ef550d787dc5",
+      "versionInfo": "v0.15.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/time@v0.15.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "google.golang.org/api",
+      "SPDXID": "SPDXRef-Package-4a42597b483683df",
+      "versionInfo": "v0.283.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/google.golang.org/api@v0.283.0"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "google.golang.org/genproto",
+      "SPDXID": "SPDXRef-Package-a0935332ee4a9d52",
+      "versionInfo": "v0.0.0-20260319201613-d00831a3d3e7",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/google.golang.org/genproto@v0.0.0-20260319201613-d00831a3d3e7"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "google.golang.org/genproto/googleapis/api",
+      "SPDXID": "SPDXRef-Package-6cba3fca5448898a",
+      "versionInfo": "v0.0.0-20260401024825-9d38bb4040a9",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/google.golang.org/genproto/googleapis/api@v0.0.0-20260401024825-9d38bb4040a9"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "google.golang.org/genproto/googleapis/rpc",
+      "SPDXID": "SPDXRef-Package-a5553865e3707b45",
+      "versionInfo": "v0.0.0-20260523011958-0a33c5d7ca68",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/google.golang.org/genproto/googleapis/rpc@v0.0.0-20260523011958-0a33c5d7ca68"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "google.golang.org/grpc",
+      "SPDXID": "SPDXRef-Package-5e8d2a8e17d38da",
+      "versionInfo": "v1.81.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/google.golang.org/grpc@v1.81.1"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "google.golang.org/protobuf",
+      "SPDXID": "SPDXRef-Package-e03e201a038a84ca",
+      "versionInfo": "v1.36.11",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/google.golang.org/protobuf@v1.36.11"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libbz2-1.0",
+      "SPDXID": "SPDXRef-Package-aade445e168688e2",
+      "versionInfo": "1.0.8-5+b1",
+      "supplier": "Organization: Anibal Monsalve Salazar \u003canibal@debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: bzip2 1.0.8-5",
+      "licenseConcluded": "BSD-variant AND GPL-2.0-only",
+      "licenseDeclared": "BSD-variant AND GPL-2.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libbz2-1.0@1.0.8-5%2Bb1?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:d20e351ed4b9a6550ad5c7f7164a955c9b0fec6f5734b48eb0394e9f20f9ec65",
+        "LayerDigest: sha256:d691374d5095f72857c21ca1930ed855412ffc28ed1453c1bcbe349e3c7d62b0",
+        "PkgID: libbz2-1.0@1.0.8-5+b1",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libc6",
+      "SPDXID": "SPDXRef-Package-223dcabe0bc8174e",
+      "versionInfo": "2.36-9+deb12u13",
+      "supplier": "Organization: GNU Libc Maintainers \u003cdebian-glibc@lists.debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: glibc 2.36-9+deb12u13",
+      "licenseConcluded": "LGPL-2.1-only AND GPL-2.0-only",
+      "licenseDeclared": "LGPL-2.1-only AND GPL-2.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u13?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:bd29502adf199ad9c03afba9bc79df572a26ec60a2a6ffdda4883a5b7a1632fe",
+        "LayerDigest: sha256:c65bb0c25578bf8f2a8b87d1996dfd93a5330c03195c8f0401cf88b2e0de9210",
+        "PkgID: libc6@2.36-9+deb12u13",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libcom-err2",
+      "SPDXID": "SPDXRef-Package-960a5659eb31f7e9",
+      "versionInfo": "1.47.0-2+b2",
+      "supplier": "Organization: Theodore Y. Ts'o \u003ctytso@mit.edu\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: e2fsprogs 1.47.0-2",
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.0-only AND BSD-3-Clause AND Apache-2 AND ISC AND GPL-3.0-only AND MIT-US-export AND Kazlib AND Latex2e AND GPL-2.0-or-later WITH Texinfo-exception AND Apache-2.0",
+      "licenseDeclared": "GPL-2.0-only AND LGPL-2.0-only AND BSD-3-Clause AND Apache-2 AND ISC AND GPL-3.0-only AND MIT-US-export AND Kazlib AND Latex2e AND GPL-2.0-or-later WITH Texinfo-exception AND Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libcom-err2@1.47.0-2%2Bb2?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:799042d6c30b65c38d3b00a310a1567a835064af5d326d21eb15e527f8703f6b",
+        "LayerDigest: sha256:a267ad1bf63641ed110252218185db70eb397b588f9c0762a78912a0ff93d1a7",
+        "PkgID: libcom-err2@1.47.0-2+b2",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libcrypt1",
+      "SPDXID": "SPDXRef-Package-eb97c4bb34ccd11a",
+      "versionInfo": "1:4.4.33-2",
+      "supplier": "Organization: Marco d'Itri \u003cmd@linux.it\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: libxcrypt 1:4.4.33-2",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libcrypt1@4.4.33-2?arch=amd64\u0026distro=debian-12.13\u0026epoch=1"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:1ca5d6162237e422b40e38cf8c2dbc5430eac27133458f62d7762c8700e8b856",
+        "LayerDigest: sha256:f164bc9f2b9e76a5dae5b338e7cfa262af08896518fec36da25cf4d859ba3be3",
+        "PkgID: libcrypt1@1:4.4.33-2",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libdb5.3",
+      "SPDXID": "SPDXRef-Package-d7c07d8e0ec7d37d",
+      "versionInfo": "5.3.28+dfsg2-1",
+      "supplier": "Organization: Bastian Germann \u003cbage@debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: db5.3 5.3.28+dfsg2-1",
+      "licenseConcluded": "Sleepycat AND BSD-3-Clause AND Ms-PL AND GPL-3.0-only AND Artistic AND X11 AND MIT-old AND TCL-like AND BSD-3-clause-fjord AND Zlib",
+      "licenseDeclared": "Sleepycat AND BSD-3-Clause AND Ms-PL AND GPL-3.0-only AND Artistic AND X11 AND MIT-old AND TCL-like AND BSD-3-clause-fjord AND Zlib",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libdb5.3@5.3.28%2Bdfsg2-1?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:2a45b556222ed1ab09b98b483e99cefd77c7bbd4877ebafb44775a30065c7dd1",
+        "LayerDigest: sha256:a04235c2efa481b2c4698fa6b593559a966a67790780b25ea2e1306322fc6533",
+        "PkgID: libdb5.3@5.3.28+dfsg2-1",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libexpat1",
+      "SPDXID": "SPDXRef-Package-a34f0a358e15ba76",
+      "versionInfo": "2.5.0-1+deb12u2",
+      "supplier": "Organization: Laszlo Boszormenyi (GCS) \u003cgcs@debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: expat 2.5.0-1+deb12u2",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libexpat1@2.5.0-1%2Bdeb12u2?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:c3e70ac51b35c50b1a76bb423932218a9782a3e9ba390664a41c94ba3ad4d1ed",
+        "LayerDigest: sha256:d38b7f3e804541fdb649442f5dcb8ebf8ada8e3f045d2448beb60b11d17ba525",
+        "PkgID: libexpat1@2.5.0-1+deb12u2",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libffi8",
+      "SPDXID": "SPDXRef-Package-c519e8e81f9ad777",
+      "versionInfo": "3.4.4-1",
+      "supplier": "Organization: Debian GCC Maintainers \u003cdebian-gcc@lists.debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: libffi 3.4.4-1",
+      "licenseConcluded": "Expat AND X11 AND GPL-2.0-only AND GPL-3.0-only AND MPL-1.1 AND LGPL-2.1-only AND public-domain",
+      "licenseDeclared": "Expat AND X11 AND GPL-2.0-only AND GPL-3.0-only AND MPL-1.1 AND LGPL-2.1-only AND public-domain",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libffi8@3.4.4-1?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:34029bd8646f750ae4e84b107ad574c9b50444b1e7a6e913aca67fa90b1c797e",
+        "LayerDigest: sha256:6025601a9976c59958440b81e652eedd2acb7c00d2f8aa9471af35a3f296e3d7",
+        "PkgID: libffi8@3.4.4-1",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libgcc-s1",
+      "SPDXID": "SPDXRef-Package-dbd9954ac1f08d11",
+      "versionInfo": "12.2.0-14+deb12u1",
+      "supplier": "Organization: Debian GCC Maintainers \u003cdebian-gcc@lists.debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: gcc-12 12.2.0-14+deb12u1",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libgcc-s1@12.2.0-14%2Bdeb12u1?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:c3abae442368dc447f15c468933843c361f227f5d87b2bb86515b49f40583ed9",
+        "LayerDigest: sha256:a812c900745ef51faf67489acb703c178411510edf7e0ab31af973e08567afb0",
+        "PkgID: libgcc-s1@12.2.0-14+deb12u1",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libgomp1",
+      "SPDXID": "SPDXRef-Package-e62e4fa27195acc1",
+      "versionInfo": "12.2.0-14+deb12u1",
+      "supplier": "Organization: Debian GCC Maintainers \u003cdebian-gcc@lists.debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: gcc-12 12.2.0-14+deb12u1",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libgomp1@12.2.0-14%2Bdeb12u1?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:2401c5ea32a75452bc4b02a664c80cf63f197704653926fca19e22e6cbc85652",
+        "LayerDigest: sha256:336f6c853c4e7eaa77938f48c9b7ce98841916930fb3da435f7ca69586fe5853",
+        "PkgID: libgomp1@12.2.0-14+deb12u1",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libgssapi-krb5-2",
+      "SPDXID": "SPDXRef-Package-1fb6ec24055b5729",
+      "versionInfo": "1.20.1-2+deb12u4",
+      "supplier": "Organization: Sam Hartman \u003chartmans@debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: krb5 1.20.1-2+deb12u4",
+      "licenseConcluded": "GPL-2.0-only",
+      "licenseDeclared": "GPL-2.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libgssapi-krb5-2@1.20.1-2%2Bdeb12u4?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:e9a2ae4af4033701a0100ddd054fa6689b897cd76ac66b9dc35649bc363b75ae",
+        "LayerDigest: sha256:4c5180bd9cef703daad6633f0b257d124cfff54e5f04487da2cd9e84df72c4ce",
+        "PkgID: libgssapi-krb5-2@1.20.1-2+deb12u4",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libk5crypto3",
+      "SPDXID": "SPDXRef-Package-6a9afd7d74d6e524",
+      "versionInfo": "1.20.1-2+deb12u4",
+      "supplier": "Organization: Sam Hartman \u003chartmans@debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: krb5 1.20.1-2+deb12u4",
+      "licenseConcluded": "GPL-2.0-only",
+      "licenseDeclared": "GPL-2.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libk5crypto3@1.20.1-2%2Bdeb12u4?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:c93bbfda25876bf5bb9130abda5775001d19242d44b37761e4309429bc55481d",
+        "LayerDigest: sha256:2e243331df5af5f26565cf878923a425485dd51d60294de22454d1b0be397364",
+        "PkgID: libk5crypto3@1.20.1-2+deb12u4",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libkeyutils1",
+      "SPDXID": "SPDXRef-Package-b4a3564b9bbf01f6",
+      "versionInfo": "1.6.3-2",
+      "supplier": "Organization: Christian Kastner \u003cckk@debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: keyutils 1.6.3-2",
+      "licenseConcluded": "GPL-2.0-only AND LGPL-2.0-only",
+      "licenseDeclared": "GPL-2.0-only AND LGPL-2.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libkeyutils1@1.6.3-2?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:b1c2c1dbf4c83dfb5544ca0cb264221888a9d111664cab667c1013501be29c8c",
+        "LayerDigest: sha256:2d2d9d1360e626058508935b8e67428df4731aea4847404506b9d87fd5af8e2e",
+        "PkgID: libkeyutils1@1.6.3-2",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libkrb5-3",
+      "SPDXID": "SPDXRef-Package-a2597629152e065",
+      "versionInfo": "1.20.1-2+deb12u4",
+      "supplier": "Organization: Sam Hartman \u003chartmans@debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: krb5 1.20.1-2+deb12u4",
+      "licenseConcluded": "GPL-2.0-only",
+      "licenseDeclared": "GPL-2.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libkrb5-3@1.20.1-2%2Bdeb12u4?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:4fcd8b117df470130b4afb775a6030776adf1d3f49509a03e0e1db3782deff25",
+        "LayerDigest: sha256:3da2c6dd7ffcd10105b43618188e77dca4566c325d4bb69086b6f9915df69f56",
+        "PkgID: libkrb5-3@1.20.1-2+deb12u4",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libkrb5support0",
+      "SPDXID": "SPDXRef-Package-bb57134b3ce0621f",
+      "versionInfo": "1.20.1-2+deb12u4",
+      "supplier": "Organization: Sam Hartman \u003chartmans@debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: krb5 1.20.1-2+deb12u4",
+      "licenseConcluded": "GPL-2.0-only",
+      "licenseDeclared": "GPL-2.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libkrb5support0@1.20.1-2%2Bdeb12u4?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:b31f6057c6e5e980d67a5e06679255231083df0364c9040db45010bafebcadf2",
+        "LayerDigest: sha256:e5faffb8d7c00a7daaa19463fd901bce8926e3968fc4ddf2139bd3c020ded70d",
+        "PkgID: libkrb5support0@1.20.1-2+deb12u4",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "liblzma5",
+      "SPDXID": "SPDXRef-Package-f42767c3bfa54b69",
+      "versionInfo": "5.4.1-1",
+      "supplier": "Organization: Sebastian Andrzej Siewior \u003csebastian@breakpoint.cc\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: xz-utils 5.4.1-1",
+      "licenseConcluded": "PD AND probably-PD AND GPL-2.0-only AND LGPL-2.1-only AND permissive-fsf AND Autoconf AND permissive-nowarranty AND none AND config-h AND LGPL-2.0-only AND noderivs AND PD-debian AND GPL-3.0-only",
+      "licenseDeclared": "PD AND probably-PD AND GPL-2.0-only AND LGPL-2.1-only AND permissive-fsf AND Autoconf AND permissive-nowarranty AND none AND config-h AND LGPL-2.0-only AND noderivs AND PD-debian AND GPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/liblzma5@5.4.1-1?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:5cad5c1bcb1284371c982147965bb981d92d6794f90281a7752b333e8cdb511e",
+        "LayerDigest: sha256:56109fea1442a8df34e78dcb115b5b713c8ed9d8327f75274aa9e95626175003",
+        "PkgID: liblzma5@5.4.1-1",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libncursesw6",
+      "SPDXID": "SPDXRef-Package-20282b847e97d35e",
+      "versionInfo": "6.4-4",
+      "supplier": "Organization: Craig Small \u003ccsmall@debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: ncurses 6.4-4",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libncursesw6@6.4-4?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:f3d99806ca4063b4e2fc0d2eeb015d136458b352e6109b1a763993d29e9ee07e",
+        "LayerDigest: sha256:b6881212f19556c5111e06dbe0fb748f2f5671f75b8dbbcab3c3635ea333522b",
+        "PkgID: libncursesw6@6.4-4",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libnsl2",
+      "SPDXID": "SPDXRef-Package-230965c845ca3fa9",
+      "versionInfo": "1.3.0-2",
+      "supplier": "Organization: GNU Libc Maintainers \u003cdebian-glibc@lists.debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: libnsl 1.3.0-2",
+      "licenseConcluded": "LGPL-2.1-only AND BSD-3-Clause AND permissive-fsf AND permissive-makefile-in AND permissive-autoconf-m4-no-warranty AND GPL-3--autoconf-exception AND permissive-configure AND GPL-2--autoconf-exception AND MIT AND GPL-2--libtool-exception AND permissive-autoconf-m4 AND GPL-2.0-only AND GPL-3.0-only",
+      "licenseDeclared": "LGPL-2.1-only AND BSD-3-Clause AND permissive-fsf AND permissive-makefile-in AND permissive-autoconf-m4-no-warranty AND GPL-3--autoconf-exception AND permissive-configure AND GPL-2--autoconf-exception AND MIT AND GPL-2--libtool-exception AND permissive-autoconf-m4 AND GPL-2.0-only AND GPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libnsl2@1.3.0-2?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:af377b41bfba1bf4a21593351556bf69eeba089d768b569175415fb36b01b039",
+        "LayerDigest: sha256:46ce27677c617f3f5f906225e1bdc7ab838a5f3cbc1f3ed3d812b2a8ca1f2804",
+        "PkgID: libnsl2@1.3.0-2",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libpython3.11-minimal",
+      "SPDXID": "SPDXRef-Package-4a9a206e217e7fd5",
+      "versionInfo": "3.11.2-6+deb12u6",
+      "supplier": "Organization: Matthias Klose \u003cdoko@debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: python3.11 3.11.2-6+deb12u6",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libpython3.11-minimal@3.11.2-6%2Bdeb12u6?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:d85a281330c3eb1c71ceee698bd5bd07040df695fad7cea92f3a2e04d23b281b",
+        "LayerDigest: sha256:51d5c7031f09f2d886434c930c503a9c7f7d6c86dc0cd36d4f4bc89db4f062c4",
+        "PkgID: libpython3.11-minimal@3.11.2-6+deb12u6",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libpython3.11-stdlib",
+      "SPDXID": "SPDXRef-Package-bd8dd747f3f7d04e",
+      "versionInfo": "3.11.2-6+deb12u6",
+      "supplier": "Organization: Matthias Klose \u003cdoko@debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: python3.11 3.11.2-6+deb12u6",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libpython3.11-stdlib@3.11.2-6%2Bdeb12u6?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:073d3804e7d91629e1b04f476c0ba16d13f93c27e8977edc717b9c99b16185bd",
+        "LayerDigest: sha256:e92f70a1bcbff92ca4bf0ce067f585d296b5023072a9b1d07bb949e08d6598c6",
+        "PkgID: libpython3.11-stdlib@3.11.2-6+deb12u6",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libreadline8",
+      "SPDXID": "SPDXRef-Package-8c90e35cc74894ee",
+      "versionInfo": "8.2-1.3",
+      "supplier": "Organization: Matthias Klose \u003cdoko@debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: readline 8.2-1.3",
+      "licenseConcluded": "GPL-3.0-only AND GPL-2.0-only AND GFDL-NIV-1.3+ AND GFDL AND ISC-no-attribution",
+      "licenseDeclared": "GPL-3.0-only AND GPL-2.0-only AND GFDL-NIV-1.3+ AND GFDL AND ISC-no-attribution",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libreadline8@8.2-1.3?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:6d945ac65d26a683937d2a98b399fe4e34ba0be47c5ec707753cf78398656876",
+        "LayerDigest: sha256:6930dbf178a0cc95b2c9685aaaca70ac44aba74cfe814ce6fb1145bf13cfa937",
+        "PkgID: libreadline8@8.2-1.3",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libsqlite3-0",
+      "SPDXID": "SPDXRef-Package-f5feb5b3cd2d172d",
+      "versionInfo": "3.40.1-2+deb12u2",
+      "supplier": "Organization: Laszlo Boszormenyi (GCS) \u003cgcs@debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: sqlite3 3.40.1-2+deb12u2",
+      "licenseConcluded": "public-domain AND GPL-2.0-only",
+      "licenseDeclared": "public-domain AND GPL-2.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libsqlite3-0@3.40.1-2%2Bdeb12u2?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:926d62780f6733e037d63af3453a461e1906f026051d9d7279fbdeb1400850a9",
+        "LayerDigest: sha256:18e0363315752987dc09adb9cfe9f6cad662a4656469abd75b4c8c547761bac8",
+        "PkgID: libsqlite3-0@3.40.1-2+deb12u2",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libssl3",
+      "SPDXID": "SPDXRef-Package-525547f292c94d9d",
+      "versionInfo": "3.0.19-1~deb12u2",
+      "supplier": "Organization: Debian OpenSSL Team \u003cpkg-openssl-devel@alioth-lists.debian.net\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: openssl 3.0.19-1~deb12u2",
+      "licenseConcluded": "Apache-2.0 AND Artistic AND GPL-1.0-only",
+      "licenseDeclared": "Apache-2.0 AND Artistic AND GPL-1.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libssl3@3.0.19-1~deb12u2?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:bab244f45e0f0e3034fe89921e69b4954e9ef07d0a7c577133d57ab60aafa408",
+        "LayerDigest: sha256:09a293e23ad4da809ddcb1272242692a54d381c3b33a292919097ff8620b0f50",
+        "PkgID: libssl3@3.0.19-1~deb12u2",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libstdc++6",
+      "SPDXID": "SPDXRef-Package-64bbd30d3ee83f34",
+      "versionInfo": "12.2.0-14+deb12u1",
+      "supplier": "Organization: Debian GCC Maintainers \u003cdebian-gcc@lists.debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: gcc-12 12.2.0-14+deb12u1",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libstdc%2B%2B6@12.2.0-14%2Bdeb12u1?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:6819a1af097df543d58dc30b51f737e55f3f42a9a04e641f175834a55bf0629c",
+        "LayerDigest: sha256:1e8acdaa260712eac85de25745cd44440065e108314a5d02c01a6678d4b75143",
+        "PkgID: libstdc++6@12.2.0-14+deb12u1",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libtinfo6",
+      "SPDXID": "SPDXRef-Package-171cfe14de1bada4",
+      "versionInfo": "6.4-4",
+      "supplier": "Organization: Craig Small \u003ccsmall@debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: ncurses 6.4-4",
+      "licenseConcluded": "MIT-X11 AND X11 AND BSD-3-Clause",
+      "licenseDeclared": "MIT-X11 AND X11 AND BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libtinfo6@6.4-4?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:6a5a95a9c158ded2e596ff36493c0bf016b11e8aeec950ce2dff8f599ad43415",
+        "LayerDigest: sha256:b5e1a73611ecdcdd2d931f588cd736074f93f10458a98d7df156190fbd725eec",
+        "PkgID: libtinfo6@6.4-4",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libtirpc3",
+      "SPDXID": "SPDXRef-Package-1b1855d007f2fa71",
+      "versionInfo": "1.3.3+ds-1",
+      "supplier": "Organization: Josue Ortega \u003cjosue@debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: libtirpc 1.3.3+ds-1",
+      "licenseConcluded": "BSD-3-Clause AND GPL-2.0-only AND --AUTO-PERMISSIVE-- AND BSD-2-Clause AND BSD-4-Clause AND LGPL-2.1-only AND PERMISSIVE",
+      "licenseDeclared": "BSD-3-Clause AND GPL-2.0-only AND --AUTO-PERMISSIVE-- AND BSD-2-Clause AND BSD-4-Clause AND LGPL-2.1-only AND PERMISSIVE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libtirpc3@1.3.3%2Bds-1?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:21df81c862b2e3f7e76a90659000c24196dae65e7ed3c0d3e654ed752f618416",
+        "LayerDigest: sha256:c3ddba9b98d69fb01953bd910a3c6ea4e66e5ac6e1a5153ba984e3e5b6efa09f",
+        "PkgID: libtirpc3@1.3.3+ds-1",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "libuuid1",
+      "SPDXID": "SPDXRef-Package-6a41d75c905746e9",
+      "versionInfo": "2.38.1-5+deb12u3",
+      "supplier": "Organization: util-linux packagers \u003cutil-linux@packages.debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: util-linux 2.38.1-5+deb12u3",
+      "licenseConcluded": "GPL-2.0-only AND GPL-3.0-only AND public-domain AND BSD-4-Clause AND MIT AND BSD-3-Clause AND BSLA AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only",
+      "licenseDeclared": "GPL-2.0-only AND GPL-3.0-only AND public-domain AND BSD-4-Clause AND MIT AND BSD-3-Clause AND BSLA AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/libuuid1@2.38.1-5%2Bdeb12u3?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:1230ca28c337e605fa5b7910feb96c299b50ebd69f7feedb6143909b14f6ee52",
+        "LayerDigest: sha256:5822fa015fc5b9fd583b228fa57362fb6ac609812a569f2fc51bc6a0d270fb63",
+        "PkgID: libuuid1@2.38.1-5+deb12u3",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "media-types",
+      "SPDXID": "SPDXRef-Package-3b2fdfc902eee530",
+      "versionInfo": "10.0.0",
+      "supplier": "Organization: Mime-Support Packagers \u003cteam+debian-mimesupport-packagers@tracker.debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: media-types 10.0.0",
+      "licenseConcluded": "ad-hoc",
+      "licenseDeclared": "ad-hoc",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/media-types@10.0.0?arch=all\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:114dde0fefebbca13165d0da9c500a66190e497a82a53dcaabc3172d630be1e9",
+        "LayerDigest: sha256:bf7a4185f01524837d19abde915ffde84e64368b250f5b5e9f6f75aea62a11d4",
+        "PkgID: media-types@10.0.0",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "netbase",
+      "SPDXID": "SPDXRef-Package-251fa3f4016edaef",
+      "versionInfo": "6.4",
+      "supplier": "Organization: Marco d'Itri \u003cmd@linux.it\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: netbase 6.4",
+      "licenseConcluded": "GPL-2.0-only",
+      "licenseDeclared": "GPL-2.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/netbase@6.4?arch=all\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:8fa10c0194df9b7c054c90dbe482585f768a54428fc90a5b78a0066a123b1bba",
+        "LayerDigest: sha256:990a9c434e5e0f11549a8d4a41a1991e621b04e30cd63269adbc97b1dc38fd7e",
+        "PkgID: netbase@6.4",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "python3-distutils",
+      "SPDXID": "SPDXRef-Package-b9e1dd3ee8ee8c62",
+      "versionInfo": "3.11.2-3",
+      "supplier": "Organization: Matthias Klose \u003cdoko@debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: python3-stdlib-extensions 3.11.2-3",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/python3-distutils@3.11.2-3?arch=all\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:dd8bd834609ca48d15941fae8dc5bb70e1ed986735c9d59c771ed505dfe45278",
+        "LayerDigest: sha256:e5f05ef3a3f3e1c2a54813e0f0f55a02811396dd99886ae71642cc41a4a0644c",
+        "PkgID: python3-distutils@3.11.2-3",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "python3.11-minimal",
+      "SPDXID": "SPDXRef-Package-4ec07879c100951f",
+      "versionInfo": "3.11.2-6+deb12u6",
+      "supplier": "Organization: Matthias Klose \u003cdoko@debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: python3.11 3.11.2-6+deb12u6",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/python3.11-minimal@3.11.2-6%2Bdeb12u6?arch=amd64\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:f0710678ba0b748f65dc70f9a427cbfee5899f11ea241cfd533d1971dc2c2cbf",
+        "LayerDigest: sha256:37fe34be97f39500358fab0392c25fc600996a458bc5f8debd318c10663c6fc6",
+        "PkgID: python3.11-minimal@3.11.2-6+deb12u6",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "software.sslmate.com/src/go-pkcs12",
+      "SPDXID": "SPDXRef-Package-eda951bf6fa3a9fb",
+      "versionInfo": "v0.7.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/software.sslmate.com/src/go-pkcs12@v0.7.1"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "stdlib",
+      "SPDXID": "SPDXRef-Package-854541bc6b12179f",
+      "versionInfo": "1.26.4",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: usr/local/bin/step",
+      "licenseConcluded": "NONE",
+      "licenseDeclared": "NONE",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/stdlib@1.26.4"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:11f5aec369abef53bcc19d0d0a856ff16c19394a281ac8fb8416a4a0c648e54d",
+        "LayerDigest: sha256:6405d094a43a647e8e3f58aec4f4f853ca68085f254c43eb02908a45aa8e185e",
+        "PkgType: gobinary"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "tzdata",
+      "SPDXID": "SPDXRef-Package-d01653305d815f5f",
+      "versionInfo": "2025b-0+deb12u2",
+      "supplier": "Organization: GNU Libc Maintainers \u003cdebian-glibc@lists.debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: tzdata 2025b-0+deb12u2",
+      "licenseConcluded": "public-domain",
+      "licenseDeclared": "public-domain",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/tzdata@2025b-0%2Bdeb12u2?arch=all\u0026distro=debian-12.13"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:4840c7c54023c867f19564429c89ddae4e9589c83dce82492183a7e9f7dab1fa",
+        "LayerDigest: sha256:ef49c20a7b35aa995683f311510d35d77e203a2204f84de14a71a6d726e6af73",
+        "PkgID: tzdata@2025b-0+deb12u2",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "zlib1g",
+      "SPDXID": "SPDXRef-Package-e8ea79ee9c9245a",
+      "versionInfo": "1:1.2.13.dfsg-1",
+      "supplier": "Organization: Mark Brown \u003cbroonie@debian.org\u003e",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "built package from: zlib 1:1.2.13.dfsg-1",
+      "licenseConcluded": "Zlib",
+      "licenseDeclared": "Zlib",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:deb/debian/zlib1g@1.2.13.dfsg-1?arch=amd64\u0026distro=debian-12.13\u0026epoch=1"
+        }
+      ],
+      "attributionTexts": [
+        "LayerDiffID: sha256:b47d9619ecfbb803f4b834cf89ba8d0c7014df1f2a4463f4a894dc7eb2911868",
+        "LayerDigest: sha256:250755fb415d1434a2afd60418a051a3e57469fd9bb83e76aeead13a2f623aa4",
+        "PkgID: zlib1g@1:1.2.13.dfsg-1",
+        "PkgType: debian"
+      ],
+      "primaryPackagePurpose": "LIBRARY"
+    },
+    {
+      "name": "debian",
+      "SPDXID": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "versionInfo": "12.13",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "attributionTexts": [
+        "Class: os-pkgs",
+        "Type: debian"
+      ],
+      "primaryPackagePurpose": "OPERATING-SYSTEM"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-9cbba0c1a81fdc7e",
+      "relatedSpdxElement": "SPDXRef-Package-77f01d492dd12b07",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-56c162351c453e5c",
+      "relatedSpdxElement": "SPDXRef-Application-9cbba0c1a81fdc7e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-ContainerImage-56c162351c453e5c",
+      "relatedSpdxElement": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-ContainerImage-56c162351c453e5c",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-171cfe14de1bada4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-1b1855d007f2fa71",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-1b46193a3938fee",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-1fb6ec24055b5729",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-20282b847e97d35e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-223dcabe0bc8174e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-230965c845ca3fa9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-251fa3f4016edaef",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-3b2fdfc902eee530",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-4a9a206e217e7fd5",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-4ec07879c100951f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-525547f292c94d9d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-64bbd30d3ee83f34",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-6a41d75c905746e9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-6a9afd7d74d6e524",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-8c90e35cc74894ee",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-960a5659eb31f7e9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-a2597629152e065",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-a34f0a358e15ba76",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-aade445e168688e2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-b4a3564b9bbf01f6",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-b9e1dd3ee8ee8c62",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-bb57134b3ce0621f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-bd8dd747f3f7d04e",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-c519e8e81f9ad777",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-d01653305d815f5f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-d07877bb6d713d74",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-d7c07d8e0ec7d37d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-dbd9954ac1f08d11",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-e62e4fa27195acc1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-e8ea79ee9c9245a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-eb97c4bb34ccd11a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-f42767c3bfa54b69",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-OperatingSystem-58260401202cbc27",
+      "relatedSpdxElement": "SPDXRef-Package-f5feb5b3cd2d172d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-136710fa6c50fc31",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-13df54132e17fa1f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-148695609ee606f0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-15da1e9c52368157",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-165cd575377e4bcb",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-1928b0c9b2a4d44",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-218c631b83d36c4c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-22593a17e24b1d43",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-234aa4622212821e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-2581f3bb3fc6f7ce",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-26209155d08b368a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-274e8cb52a93d53",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-2a4b3037e71a346c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-2a5537989507abf",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-2d6b7c54e717449c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-2d96fb6426f0a3dc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-2f1ded32b2b785ba",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-374d1888394f0ddc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-39f4329f798d1f91",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-3bdc4bd807e7460a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-3cc990f6599ab2eb",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-3dc6ce0cf712c22d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-4013bd113f72e7b3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-412506510711e8a6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-41b695548c23225",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-42ccfb252bcebf0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-434b20ea93b4daea",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-4671b50154868f45",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-4996a0a3177847f4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-4a42597b483683df",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-4ade0e9456c20821",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-4b8240e59a9703e4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-4bb57c09fb70672",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-4bd6f057483811c1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-4ec8666040a255f9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-52b804d6b2422b6d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-5580a9694cae7de5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-57b82ddd3dcdc95",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-5a6ab9687d5b897a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-5c2fb41b24a5addc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-5c5d2c9f1d1dbf99",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-5cf790fc6784dd39",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-5d7192c4ac08dfe5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-5e8d2a8e17d38da",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-5f70efc2cd6e3929",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-6074b99536da8efb",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-6096bd69351c5538",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-61b6209ad6823d98",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-6571979a1d4d29e0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-66b643bb0011fabb",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-675b353e2665f583",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-680854b91526789e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-6a0a8d106a921292",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-6cba3fca5448898a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-6e351a69578de77c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-6f5afb96d8befbca",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-75a13341a724771f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-75e6ef550d787dc5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-79825352c60cae62",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-7c33a7148c0e010c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-7c433bc2c2a7e68a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-7ca792178dc07b99",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-7e0892d7872ab21e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-7e5e176111a3a4a9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-7e8e927da77dd7aa",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-7f2a77b7e461167",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-7f340c43bf2bcf8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-854541bc6b12179f",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-856ff5792dc2bc8a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-85d7bfb35c2ad378",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-87d4e64697bf5a96",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-8c5ce4891291876c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-8e84aafde1e38d5c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-9080991b6a26cc1c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-92db54c1e9ece775",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-958da4c962e0bd65",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-99391c7b1a03bc81",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-9c2d90bac3a198e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-9d4e592a67a8dd76",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-9f2b419982ab2888",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-a0935332ee4a9d52",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-a0f51fd6b7337774",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-a19b48042dc9b1b2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-a1d78c2b00d3ff47",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-a1fa9abc9884f15d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-a236896fd3ea30fc",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-a390fe795c6fea75",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-a5553865e3707b45",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-af538c5abadb6a4e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-b110a6936071eb3c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-b151466cd2e69a7a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-bee42472f512a586",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-bf9c5c854ea95a03",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-c078c04392a8410d",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-c204d3c85b1d6213",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-c26dfdd40f62241a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-c4de0b6a78a80c3e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-c53fb1b8a0a489ca",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-c56eab40362cb613",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-c5ba73645a6ecbbb",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-c85cf6fef060ce65",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-caf846e00de269b4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-cdc67882175d8477",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-d134e4943f2b58f2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-d57ac99101f0e5ce",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-dbb56d122ca59c01",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-dbe843af3b5ca050",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-de3c39dc20155d9a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-de49c8bf80fbd202",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-e03e201a038a84ca",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-e770fd5cdf7ff9d6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-e84bc37773b64b9c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-e89ba88a43170285",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-e9e46a779ab81a47",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-eb2cc6fb736b5d6c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-ec98bf5afae4c1be",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-eda951bf6fa3a9fb",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-f45dd709b18d04a4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-f4a9b33699a3e05",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-f846f7e6b8c457da",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-fa866a5163c40cbe",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-fa983985ce47cce0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-fa9ed67f1cf97e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-fb4ce7f0e6a30293",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-77f01d492dd12b07",
+      "relatedSpdxElement": "SPDXRef-Package-fb89df951878e836",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

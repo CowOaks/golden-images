@@ -1,0 +1,7 @@
+mcp
+fastapi
+uvicorn
+httpx
+pydantic
+python-dotenv
+mem0ai
