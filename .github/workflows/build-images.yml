@@ -13,6 +13,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Read version
+        id: ver
+        run: echo "version=$(cat mcp-sidecar/VERSION)" >> "$GITHUB_OUTPUT"
+
       - name: Build mcp-sidecar-base
         run: docker build -t 192.168.20.18:5050/mcp-sidecar-base:${{ github.sha }} mcp-sidecar/
 
@@ -25,13 +29,23 @@ jobs:
             --ignorefile mcp-sidecar/.trivyignore \
             --input ${{ github.workspace }}/mcp-sidecar-base.tar
 
-      - name: Push image
+      - name: Tag with version
+        run: docker tag 192.168.20.18:5050/mcp-sidecar-base:${{ github.sha }} 192.168.20.18:5050/mcp-sidecar-base:${{ steps.ver.outputs.version }}
+
+      - name: Push sha tag
         run: docker push 192.168.20.18:5050/mcp-sidecar-base:${{ github.sha }}
+
+      - name: Push version tag
+        run: docker push 192.168.20.18:5050/mcp-sidecar-base:${{ steps.ver.outputs.version }}
 
   build-ai-worker:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
+
+      - name: Read version
+        id: ver
+        run: echo "version=$(cat ai-worker/VERSION)" >> "$GITHUB_OUTPUT"
 
       - name: Build ai-worker-base
         run: docker build -t 192.168.20.18:5050/ai-worker-base:${{ github.sha }} ai-worker/
@@ -44,5 +58,11 @@ jobs:
           /snap/bin/trivy image --severity CRITICAL --exit-code 1 \
             --input ${{ github.workspace }}/ai-worker-base.tar
 
-      - name: Push image
+      - name: Tag with version
+        run: docker tag 192.168.20.18:5050/ai-worker-base:${{ github.sha }} 192.168.20.18:5050/ai-worker-base:${{ steps.ver.outputs.version }}
+
+      - name: Push sha tag
         run: docker push 192.168.20.18:5050/ai-worker-base:${{ github.sha }}
+
+      - name: Push version tag
+        run: docker push 192.168.20.18:5050/ai-worker-base:${{ steps.ver.outputs.version }}
