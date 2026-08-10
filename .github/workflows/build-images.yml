@@ -17,13 +17,13 @@ jobs:
         run: docker build -t 192.168.20.18:5050/mcp-sidecar-base:${{ github.sha }} mcp-sidecar/
 
       - name: Export image for Trivy scan
-        run: docker save -o /tmp/mcp-sidecar-base.tar 192.168.20.18:5050/mcp-sidecar-base:${{ github.sha }}
+        run: docker save -o ${{ github.workspace }}/mcp-sidecar-base.tar 192.168.20.18:5050/mcp-sidecar-base:${{ github.sha }}
 
       - name: Scan with Trivy (fail on new CRITICAL)
         run: |
           /snap/bin/trivy image --severity CRITICAL --exit-code 1 \
             --ignorefile mcp-sidecar/.trivyignore \
-            --input /tmp/mcp-sidecar-base.tar
+            --input ${{ github.workspace }}/mcp-sidecar-base.tar
 
       - name: Push image
         run: docker push 192.168.20.18:5050/mcp-sidecar-base:${{ github.sha }}
@@ -37,12 +37,12 @@ jobs:
         run: docker build -t 192.168.20.18:5050/ai-worker-base:${{ github.sha }} ai-worker/
 
       - name: Export image for Trivy scan
-        run: docker save -o /tmp/ai-worker-base.tar 192.168.20.18:5050/ai-worker-base:${{ github.sha }}
+        run: docker save -o ${{ github.workspace }}/ai-worker-base.tar 192.168.20.18:5050/ai-worker-base:${{ github.sha }}
 
       - name: Scan with Trivy (fail on new CRITICAL)
         run: |
           /snap/bin/trivy image --severity CRITICAL --exit-code 1 \
-            --input /tmp/ai-worker-base.tar
+            --input ${{ github.workspace }}/ai-worker-base.tar
 
       - name: Push image
         run: docker push 192.168.20.18:5050/ai-worker-base:${{ github.sha }}
